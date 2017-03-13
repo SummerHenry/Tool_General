@@ -10,9 +10,6 @@
 		B7255D6F1E766A5A00409145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255D6E1E766A5A00409145 /* main.m */; };
 		B7255D721E766A5A00409145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255D711E766A5A00409145 /* AppDelegate.m */; };
 		B7255D751E766A5A00409145 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255D741E766A5A00409145 /* ViewController.m */; };
-		B7255D781E766A5A00409145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7255D761E766A5A00409145 /* Main.storyboard */; };
-		B7255D7A1E766A5A00409145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7255D791E766A5A00409145 /* Assets.xcassets */; };
-		B7255D7D1E766A5A00409145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7255D7B1E766A5A00409145 /* LaunchScreen.storyboard */; };
 		B7255D881E766A5A00409145 /* yqDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255D871E766A5A00409145 /* yqDemoTests.m */; };
 		B7255D931E766A5A00409145 /* yqDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255D921E766A5A00409145 /* yqDemoUITests.m */; };
 		B7255DA41E766AAB00409145 /* UIButton+YQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DA31E766AAB00409145 /* UIButton+YQButton.m */; };
@@ -22,10 +19,6 @@
 		B7255DB11E766AE200409145 /* UITableView+Gzw.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DAD1E766AE200409145 /* UITableView+Gzw.m */; };
 		B7255DB71E766C4900409145 /* UITableView+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DB41E766C4900409145 /* UITableView+Cell.m */; };
 		B7255DB81E766C4900409145 /* WLCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DB61E766C4900409145 /* WLCustomCell.m */; };
-		B7255DBB1E76706800409145 /* ListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DBA1E76706800409145 /* ListItemCell.m */; };
-		B7255DBE1E76745700409145 /* ButtonClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DBD1E76745700409145 /* ButtonClickViewController.m */; };
-		B7255DC11E76747100409145 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DC01E76747100409145 /* LoadingViewController.m */; };
-		B7255DC41E76789E00409145 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DC31E76789E00409145 /* ItemModel.m */; };
 		B7255DCF1E767AF700409145 /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DC81E767AF700409145 /* GCDGroup.m */; };
 		B7255DD01E767AF700409145 /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DCA1E767AF700409145 /* GCDQueue.m */; };
 		B7255DD11E767AF700409145 /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255DCC1E767AF700409145 /* GCDSemaphore.m */; };
@@ -48,6 +41,14 @@
 		B7255E171E767C7C00409145 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = B7255DFE1E767C7C00409145 /* POPSpringAnimation.mm */; };
 		B7255E181E767C7C00409145 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = B7255E021E767C7C00409145 /* POPVector.mm */; };
 		B7255E191E767C7C00409145 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7255E051E767C7C00409145 /* TransformationMatrix.cpp */; };
+		B7255E251E768D0C00409145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7255E1F1E768D0C00409145 /* Assets.xcassets */; };
+		B7255E261E768D0C00409145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7255E201E768D0C00409145 /* LaunchScreen.storyboard */; };
+		B7255E271E768D0C00409145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7255E221E768D0C00409145 /* Main.storyboard */; };
+		B7255E281E768D0C00409145 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7255E241E768D0C00409145 /* Info.plist */; };
+		B7255E2D1E768D6200409145 /* ButtonClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E2A1E768D6200409145 /* ButtonClickViewController.m */; };
+		B7255E2E1E768D6200409145 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E2C1E768D6200409145 /* LoadingViewController.m */; };
+		B7255E311E768D7700409145 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E301E768D7700409145 /* ItemModel.m */; };
+		B7255E341E768D8600409145 /* ListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E331E768D8600409145 /* ListItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,14 +71,10 @@
 /* Begin PBXFileReference section */
 		B7255D6A1E766A5A00409145 /* yqDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yqDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7255D6E1E766A5A00409145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B7255D701E766A5A00409145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B7255D711E766A5A00409145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7255D701E766A5A00409145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		B7255D711E766A5A00409145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		B7255D731E766A5A00409145 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B7255D741E766A5A00409145 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B7255D771E766A5A00409145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B7255D791E766A5A00409145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B7255D7C1E766A5A00409145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B7255D7E1E766A5A00409145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7255D831E766A5A00409145 /* yqDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yqDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7255D871E766A5A00409145 /* yqDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yqDemoTests.m; sourceTree = "<group>"; };
 		B7255D891E766A5A00409145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,14 +93,6 @@
 		B7255DB41E766C4900409145 /* UITableView+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Cell.m"; sourceTree = "<group>"; };
 		B7255DB51E766C4900409145 /* WLCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCustomCell.h; sourceTree = "<group>"; };
 		B7255DB61E766C4900409145 /* WLCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCustomCell.m; sourceTree = "<group>"; };
-		B7255DB91E76706800409145 /* ListItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemCell.h; sourceTree = "<group>"; };
-		B7255DBA1E76706800409145 /* ListItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemCell.m; sourceTree = "<group>"; };
-		B7255DBC1E76745700409145 /* ButtonClickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonClickViewController.h; sourceTree = "<group>"; };
-		B7255DBD1E76745700409145 /* ButtonClickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonClickViewController.m; sourceTree = "<group>"; };
-		B7255DBF1E76747100409145 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
-		B7255DC01E76747100409145 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
-		B7255DC21E76789E00409145 /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
-		B7255DC31E76789E00409145 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
 		B7255DC61E767AF700409145 /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
 		B7255DC71E767AF700409145 /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
 		B7255DC81E767AF700409145 /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
@@ -164,6 +153,18 @@
 		B7255E051E767C7C00409145 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
 		B7255E061E767C7C00409145 /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
 		B7255E071E767C7C00409145 /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
+		B7255E1F1E768D0C00409145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7255E211E768D0C00409145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7255E231E768D0C00409145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7255E241E768D0C00409145 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7255E291E768D6200409145 /* ButtonClickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonClickViewController.h; sourceTree = "<group>"; };
+		B7255E2A1E768D6200409145 /* ButtonClickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonClickViewController.m; sourceTree = "<group>"; };
+		B7255E2B1E768D6200409145 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		B7255E2C1E768D6200409145 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		B7255E2F1E768D7700409145 /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		B7255E301E768D7700409145 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		B7255E321E768D8600409145 /* ListItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemCell.h; sourceTree = "<group>"; };
+		B7255E331E768D8600409145 /* ListItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,23 +215,11 @@
 		B7255D6C1E766A5A00409145 /* yqDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B7255DA01E766A7E00409145 /* Tool */,
-				B7255D701E766A5A00409145 /* AppDelegate.h */,
-				B7255D711E766A5A00409145 /* AppDelegate.m */,
 				B7255D731E766A5A00409145 /* ViewController.h */,
 				B7255D741E766A5A00409145 /* ViewController.m */,
-				B7255DBC1E76745700409145 /* ButtonClickViewController.h */,
-				B7255DBD1E76745700409145 /* ButtonClickViewController.m */,
-				B7255DBF1E76747100409145 /* LoadingViewController.h */,
-				B7255DC01E76747100409145 /* LoadingViewController.m */,
-				B7255DC21E76789E00409145 /* ItemModel.h */,
-				B7255DC31E76789E00409145 /* ItemModel.m */,
-				B7255DB91E76706800409145 /* ListItemCell.h */,
-				B7255DBA1E76706800409145 /* ListItemCell.m */,
-				B7255D761E766A5A00409145 /* Main.storyboard */,
-				B7255D791E766A5A00409145 /* Assets.xcassets */,
-				B7255D7B1E766A5A00409145 /* LaunchScreen.storyboard */,
-				B7255D7E1E766A5A00409145 /* Info.plist */,
+				B7255E1A1E768CC900409145 /* Main */,
+				B7255E1E1E768D0C00409145 /* Resource */,
+				B7255DA01E766A7E00409145 /* Tool */,
 				B7255D6D1E766A5A00409145 /* Supporting Files */,
 			);
 			path = yqDemo;
@@ -397,6 +386,58 @@
 			path = WebCore;
 			sourceTree = "<group>";
 		};
+		B7255E1A1E768CC900409145 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B7255E1B1E768CC900409145 /* Controller */,
+				B7255E1C1E768CC900409145 /* Model */,
+				B7255E1D1E768CC900409145 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B7255E1B1E768CC900409145 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7255E291E768D6200409145 /* ButtonClickViewController.h */,
+				B7255E2A1E768D6200409145 /* ButtonClickViewController.m */,
+				B7255E2B1E768D6200409145 /* LoadingViewController.h */,
+				B7255E2C1E768D6200409145 /* LoadingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7255E1C1E768CC900409145 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7255E2F1E768D7700409145 /* ItemModel.h */,
+				B7255E301E768D7700409145 /* ItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7255E1D1E768CC900409145 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7255E321E768D8600409145 /* ListItemCell.h */,
+				B7255E331E768D8600409145 /* ListItemCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7255E1E1E768D0C00409145 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B7255D701E766A5A00409145 /* AppDelegate.h */,
+				B7255D711E766A5A00409145 /* AppDelegate.m */,
+				B7255E1F1E768D0C00409145 /* Assets.xcassets */,
+				B7255E201E768D0C00409145 /* LaunchScreen.storyboard */,
+				B7255E221E768D0C00409145 /* Main.storyboard */,
+				B7255E241E768D0C00409145 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -507,9 +548,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7255DAF1E766AE200409145 /* placeholder_fancy@2x.png in Resources */,
-				B7255D7D1E766A5A00409145 /* LaunchScreen.storyboard in Resources */,
-				B7255D7A1E766A5A00409145 /* Assets.xcassets in Resources */,
-				B7255D781E766A5A00409145 /* Main.storyboard in Resources */,
+				B7255E281E768D0C00409145 /* Info.plist in Resources */,
+				B7255E271E768D0C00409145 /* Main.storyboard in Resources */,
+				B7255E261E768D0C00409145 /* LaunchScreen.storyboard in Resources */,
+				B7255E251E768D0C00409145 /* Assets.xcassets in Resources */,
 				B7255DAE1E766AE200409145 /* placeholder_fancy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,26 +587,26 @@
 				B7255E0F1E767C7C00409145 /* POPBasicAnimation.mm in Sources */,
 				B7255E0A1E767C7C00409145 /* POPAnimationEvent.mm in Sources */,
 				B7255E0E1E767C7C00409145 /* POPAnimator.mm in Sources */,
+				B7255E2D1E768D6200409145 /* ButtonClickViewController.m in Sources */,
 				B7255DB11E766AE200409145 /* UITableView+Gzw.m in Sources */,
 				B7255E091E767C7C00409145 /* POPAnimation.mm in Sources */,
 				B7255E101E767C7C00409145 /* POPCGUtils.mm in Sources */,
+				B7255E311E768D7700409145 /* ItemModel.m in Sources */,
 				B7255D721E766A5A00409145 /* AppDelegate.m in Sources */,
 				B7255D6F1E766A5A00409145 /* main.m in Sources */,
 				B7255E181E767C7C00409145 /* POPVector.mm in Sources */,
-				B7255DC41E76789E00409145 /* ItemModel.m in Sources */,
+				B7255E341E768D8600409145 /* ListItemCell.m in Sources */,
 				B7255E0B1E767C7C00409145 /* POPAnimationExtras.mm in Sources */,
 				B7255E161E767C7C00409145 /* POPPropertyAnimation.mm in Sources */,
 				B7255DB01E766AE200409145 /* UIScrollView+EmptyDataSet.m in Sources */,
-				B7255DBE1E76745700409145 /* ButtonClickViewController.m in Sources */,
 				B7255E131E767C7C00409145 /* POPGeometry.mm in Sources */,
 				B7255DB81E766C4900409145 /* WLCustomCell.m in Sources */,
+				B7255E2E1E768D6200409145 /* LoadingViewController.m in Sources */,
 				B7255E0D1E767C7C00409145 /* POPAnimationTracer.mm in Sources */,
 				B7255E0C1E767C7C00409145 /* POPAnimationRuntime.mm in Sources */,
 				B7255DCF1E767AF700409145 /* GCDGroup.m in Sources */,
 				B7255E121E767C7C00409145 /* POPDecayAnimation.mm in Sources */,
-				B7255DBB1E76706800409145 /* ListItemCell.m in Sources */,
 				B7255E151E767C7C00409145 /* POPMath.mm in Sources */,
-				B7255DC11E76747100409145 /* LoadingViewController.m in Sources */,
 				B7255DD11E767AF700409145 /* GCDSemaphore.m in Sources */,
 				B7255E081E767C7C00409145 /* POPAnimatableProperty.mm in Sources */,
 				B7255E111E767C7C00409145 /* POPCustomAnimation.mm in Sources */,
@@ -604,20 +646,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B7255D761E766A5A00409145 /* Main.storyboard */ = {
+		B7255E201E768D0C00409145 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B7255D771E766A5A00409145 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B7255D7B1E766A5A00409145 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7255D7C1E766A5A00409145 /* Base */,
+				B7255E211E768D0C00409145 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B7255E221E768D0C00409145 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7255E231E768D0C00409145 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -804,6 +846,7 @@
 				B7255D991E766A5A00409145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7255D9A1E766A5A00409145 /* Build configuration list for PBXNativeTarget "yqDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -812,6 +855,7 @@
 				B7255D9C1E766A5A00409145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7255D9D1E766A5A00409145 /* Build configuration list for PBXNativeTarget "yqDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -820,6 +864,7 @@
 				B7255D9F1E766A5A00409145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

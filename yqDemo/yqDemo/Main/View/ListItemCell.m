@@ -56,7 +56,6 @@
 - (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated {
     
     [super setHighlighted:highlighted animated:animated];
-    
     if (self.highlighted) {
         POPBasicAnimation *scaleAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPViewScaleXY];
         scaleAnimation.duration           = 0.1f;

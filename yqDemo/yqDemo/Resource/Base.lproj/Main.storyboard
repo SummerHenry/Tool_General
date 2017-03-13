@@ -95,8 +95,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WS6-pY-fpy">
-                                <rect key="frame" x="133" y="311" width="98" height="45"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WS6-pY-fpy">
+                                <rect key="frame" x="138.5" y="311" width="98" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="98" id="FdT-oT-SuD"/>
                                     <constraint firstAttribute="height" constant="45" id="w7u-ft-nSQ"/>
