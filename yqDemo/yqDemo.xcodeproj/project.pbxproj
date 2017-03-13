@@ -510,7 +510,7 @@
 					};
 					B7255D821E766A5A00409145 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = C654ZPSFNX;
+						DevelopmentTeam = AR3398K2DD;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B7255D691E766A5A00409145;
 					};
@@ -758,7 +758,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C654ZPSFNX;
-				INFOPLIST_FILE = yqDemo/Info.plist;
+				INFOPLIST_FILE = yqDemo/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fyq.yqDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -770,7 +770,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C654ZPSFNX;
-				INFOPLIST_FILE = yqDemo/Info.plist;
+				INFOPLIST_FILE = yqDemo/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fyq.yqDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -781,7 +781,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = C654ZPSFNX;
+				DEVELOPMENT_TEAM = AR3398K2DD;
 				INFOPLIST_FILE = yqDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fyq.yqDemoTests;
@@ -794,7 +794,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = C654ZPSFNX;
+				DEVELOPMENT_TEAM = AR3398K2DD;
 				INFOPLIST_FILE = yqDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fyq.yqDemoTests;
