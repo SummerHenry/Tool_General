@@ -12,6 +12,7 @@
 
 #import "ButtonClickViewController.h"
 #import "LoadingViewController.h"
+#import "ArcPercentViewController.h"
 
 static NSString *kListItemCell = @"listItemCell";
 
@@ -51,6 +52,7 @@ static NSString *kListItemCell = @"listItemCell";
         _dataArray = [NSMutableArray array];
         [_dataArray addObject:[ItemModel itemWithName:@"Button Block动态时实现" object:[ButtonClickViewController class]]];
         [_dataArray addObject:[ItemModel itemWithName:@"tableView 加载" object:[LoadingViewController class]]];
+        [_dataArray addObject:[ItemModel itemWithName:@"动态圆环百分比" object:[ArcPercentViewController class]]];
     }
     return _dataArray;
 }

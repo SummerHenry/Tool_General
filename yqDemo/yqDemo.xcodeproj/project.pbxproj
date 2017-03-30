@@ -49,6 +49,7 @@
 		B7255E2E1E768D6200409145 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E2C1E768D6200409145 /* LoadingViewController.m */; };
 		B7255E311E768D7700409145 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E301E768D7700409145 /* ItemModel.m */; };
 		B7255E341E768D8600409145 /* ListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E331E768D8600409145 /* ListItemCell.m */; };
+		E6A50D741E8CE2DD003B8310 /* ArcPercentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D731E8CE2DD003B8310 /* ArcPercentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +166,8 @@
 		B7255E301E768D7700409145 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
 		B7255E321E768D8600409145 /* ListItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemCell.h; sourceTree = "<group>"; };
 		B7255E331E768D8600409145 /* ListItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemCell.m; sourceTree = "<group>"; };
+		E6A50D721E8CE2DD003B8310 /* ArcPercentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcPercentViewController.h; sourceTree = "<group>"; };
+		E6A50D731E8CE2DD003B8310 /* ArcPercentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcPercentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,6 +406,8 @@
 				B7255E2A1E768D6200409145 /* ButtonClickViewController.m */,
 				B7255E2B1E768D6200409145 /* LoadingViewController.h */,
 				B7255E2C1E768D6200409145 /* LoadingViewController.m */,
+				E6A50D721E8CE2DD003B8310 /* ArcPercentViewController.h */,
+				E6A50D731E8CE2DD003B8310 /* ArcPercentViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -589,6 +594,7 @@
 				B7255E0E1E767C7C00409145 /* POPAnimator.mm in Sources */,
 				B7255E2D1E768D6200409145 /* ButtonClickViewController.m in Sources */,
 				B7255DB11E766AE200409145 /* UITableView+Gzw.m in Sources */,
+				E6A50D741E8CE2DD003B8310 /* ArcPercentViewController.m in Sources */,
 				B7255E091E767C7C00409145 /* POPAnimation.mm in Sources */,
 				B7255E101E767C7C00409145 /* POPCGUtils.mm in Sources */,
 				B7255E311E768D7700409145 /* ItemModel.m in Sources */,
