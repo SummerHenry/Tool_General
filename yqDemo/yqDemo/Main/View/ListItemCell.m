@@ -21,11 +21,10 @@
 - (void)loadContent
 {
     if (self.data) {
-        ItemModel *item                = self.data[self.indexPath.row];
+        ItemModel *item      = self.data[self.indexPath.row];
         self.titleLabel.text = item.name;
         self.subTitleLabel.text   = [NSString stringWithFormat:@"%@", [item.object class]];
     }
-    
     if (self.indexPath.row % 2) {
         self.backgroundColor = [[UIColor grayColor] colorWithAlphaComponent:0.05f];
     } else {
