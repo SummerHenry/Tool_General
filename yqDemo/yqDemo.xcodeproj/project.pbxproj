@@ -49,6 +49,12 @@
 		B7255E2E1E768D6200409145 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E2C1E768D6200409145 /* LoadingViewController.m */; };
 		B7255E311E768D7700409145 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E301E768D7700409145 /* ItemModel.m */; };
 		B7255E341E768D8600409145 /* ListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7255E331E768D8600409145 /* ListItemCell.m */; };
+		E6A50D741E8CE2DD003B8310 /* ArcPercentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D731E8CE2DD003B8310 /* ArcPercentViewController.m */; };
+		E6A50D781E8CE98E003B8310 /* UIView+SFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D771E8CE98E003B8310 /* UIView+SFExtension.m */; };
+		E6A50D821E8CE9CE003B8310 /* SFAnnuarMainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D7B1E8CE9CE003B8310 /* SFAnnuarMainTool.m */; };
+		E6A50D831E8CE9CE003B8310 /* SFAnnularAnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D7D1E8CE9CE003B8310 /* SFAnnularAnimView.m */; };
+		E6A50D841E8CE9CE003B8310 /* SFAnnularBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D7F1E8CE9CE003B8310 /* SFAnnularBaseView.m */; };
+		E6A50D851E8CE9CE003B8310 /* SFBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D811E8CE9CE003B8310 /* SFBaseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +171,18 @@
 		B7255E301E768D7700409145 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
 		B7255E321E768D8600409145 /* ListItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemCell.h; sourceTree = "<group>"; };
 		B7255E331E768D8600409145 /* ListItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemCell.m; sourceTree = "<group>"; };
+		E6A50D721E8CE2DD003B8310 /* ArcPercentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcPercentViewController.h; sourceTree = "<group>"; };
+		E6A50D731E8CE2DD003B8310 /* ArcPercentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcPercentViewController.m; sourceTree = "<group>"; };
+		E6A50D761E8CE98E003B8310 /* UIView+SFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SFExtension.h"; sourceTree = "<group>"; };
+		E6A50D771E8CE98E003B8310 /* UIView+SFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SFExtension.m"; sourceTree = "<group>"; };
+		E6A50D7A1E8CE9CE003B8310 /* SFAnnuarMainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAnnuarMainTool.h; sourceTree = "<group>"; };
+		E6A50D7B1E8CE9CE003B8310 /* SFAnnuarMainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAnnuarMainTool.m; sourceTree = "<group>"; };
+		E6A50D7C1E8CE9CE003B8310 /* SFAnnularAnimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAnnularAnimView.h; sourceTree = "<group>"; };
+		E6A50D7D1E8CE9CE003B8310 /* SFAnnularAnimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAnnularAnimView.m; sourceTree = "<group>"; };
+		E6A50D7E1E8CE9CE003B8310 /* SFAnnularBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAnnularBaseView.h; sourceTree = "<group>"; };
+		E6A50D7F1E8CE9CE003B8310 /* SFAnnularBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAnnularBaseView.m; sourceTree = "<group>"; };
+		E6A50D801E8CE9CE003B8310 /* SFBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBaseView.h; sourceTree = "<group>"; };
+		E6A50D811E8CE9CE003B8310 /* SFBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBaseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +272,8 @@
 		B7255DA01E766A7E00409145 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				E6A50D791E8CE9CE003B8310 /* SFArcLoading */,
+				E6A50D751E8CE98E003B8310 /* UIView+Category */,
 				B7255DD31E767C7C00409145 /* pop */,
 				B7255DC51E767AF700409145 /* GCD */,
 				B7255DB21E766C1B00409145 /* BaseView */,
@@ -403,6 +423,8 @@
 				B7255E2A1E768D6200409145 /* ButtonClickViewController.m */,
 				B7255E2B1E768D6200409145 /* LoadingViewController.h */,
 				B7255E2C1E768D6200409145 /* LoadingViewController.m */,
+				E6A50D721E8CE2DD003B8310 /* ArcPercentViewController.h */,
+				E6A50D731E8CE2DD003B8310 /* ArcPercentViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -436,6 +458,30 @@
 				B7255E241E768D0C00409145 /* Info.plist */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		E6A50D751E8CE98E003B8310 /* UIView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D761E8CE98E003B8310 /* UIView+SFExtension.h */,
+				E6A50D771E8CE98E003B8310 /* UIView+SFExtension.m */,
+			);
+			path = "UIView+Category";
+			sourceTree = "<group>";
+		};
+		E6A50D791E8CE9CE003B8310 /* SFArcLoading */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D7A1E8CE9CE003B8310 /* SFAnnuarMainTool.h */,
+				E6A50D7B1E8CE9CE003B8310 /* SFAnnuarMainTool.m */,
+				E6A50D7C1E8CE9CE003B8310 /* SFAnnularAnimView.h */,
+				E6A50D7D1E8CE9CE003B8310 /* SFAnnularAnimView.m */,
+				E6A50D7E1E8CE9CE003B8310 /* SFAnnularBaseView.h */,
+				E6A50D7F1E8CE9CE003B8310 /* SFAnnularBaseView.m */,
+				E6A50D801E8CE9CE003B8310 /* SFBaseView.h */,
+				E6A50D811E8CE9CE003B8310 /* SFBaseView.m */,
+			);
+			path = SFArcLoading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -578,9 +624,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7255DB71E766C4900409145 /* UITableView+Cell.m in Sources */,
+				E6A50D781E8CE98E003B8310 /* UIView+SFExtension.m in Sources */,
 				B7255E191E767C7C00409145 /* TransformationMatrix.cpp in Sources */,
 				B7255D751E766A5A00409145 /* ViewController.m in Sources */,
+				E6A50D831E8CE9CE003B8310 /* SFAnnularAnimView.m in Sources */,
 				B7255DD01E767AF700409145 /* GCDQueue.m in Sources */,
+				E6A50D851E8CE9CE003B8310 /* SFBaseView.m in Sources */,
 				B7255E141E767C7C00409145 /* POPLayerExtras.mm in Sources */,
 				B7255DA41E766AAB00409145 /* UIButton+YQButton.m in Sources */,
 				B7255DD21E767AF700409145 /* GCDTimer.m in Sources */,
@@ -589,17 +638,20 @@
 				B7255E0E1E767C7C00409145 /* POPAnimator.mm in Sources */,
 				B7255E2D1E768D6200409145 /* ButtonClickViewController.m in Sources */,
 				B7255DB11E766AE200409145 /* UITableView+Gzw.m in Sources */,
+				E6A50D741E8CE2DD003B8310 /* ArcPercentViewController.m in Sources */,
 				B7255E091E767C7C00409145 /* POPAnimation.mm in Sources */,
 				B7255E101E767C7C00409145 /* POPCGUtils.mm in Sources */,
 				B7255E311E768D7700409145 /* ItemModel.m in Sources */,
 				B7255D721E766A5A00409145 /* AppDelegate.m in Sources */,
 				B7255D6F1E766A5A00409145 /* main.m in Sources */,
+				E6A50D821E8CE9CE003B8310 /* SFAnnuarMainTool.m in Sources */,
 				B7255E181E767C7C00409145 /* POPVector.mm in Sources */,
 				B7255E341E768D8600409145 /* ListItemCell.m in Sources */,
 				B7255E0B1E767C7C00409145 /* POPAnimationExtras.mm in Sources */,
 				B7255E161E767C7C00409145 /* POPPropertyAnimation.mm in Sources */,
 				B7255DB01E766AE200409145 /* UIScrollView+EmptyDataSet.m in Sources */,
 				B7255E131E767C7C00409145 /* POPGeometry.mm in Sources */,
+				E6A50D841E8CE9CE003B8310 /* SFAnnularBaseView.m in Sources */,
 				B7255DB81E766C4900409145 /* WLCustomCell.m in Sources */,
 				B7255E2E1E768D6200409145 /* LoadingViewController.m in Sources */,
 				B7255E0D1E767C7C00409145 /* POPAnimationTracer.mm in Sources */,
