@@ -36,6 +36,8 @@ NSMutableArray *imageArr;
     [self reloadEmptyDataSet];
     
 }
+
+
 -(void)setLoadingClick:(void (^)())loadingClick
 {
     objc_setAssociatedObject(self, &block, loadingClick, OBJC_ASSOCIATION_COPY_NONATOMIC);
@@ -124,18 +126,18 @@ NSMutableArray *imageArr;
 
 
 #pragma mark - DZNEmptyDataSetSource
-// 返回一个自定义的view（优先级最高）
-- (UIView *)customViewForEmptyDataSet:(UIScrollView *)scrollView
-{
-    if (self.loading) {
-        UIActivityIndicatorView *activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-        [activityView startAnimating];
-        
-        return activityView;
-    }else {
-        return nil;
-    }
-}
+//// 返回一个自定义的view（优先级最高）
+//- (UIView *)customViewForEmptyDataSet:(UIScrollView *)scrollView
+//{
+//    if (self.loading) {
+//        UIActivityIndicatorView *activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+//        [activityView startAnimating];
+//        
+//        return activityView;
+//    }else {
+//        return nil;
+//    }
+//}
 // 返回一张空状态的图片在文字上面的
 - (UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView
 {

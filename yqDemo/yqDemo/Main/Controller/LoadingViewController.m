@@ -71,16 +71,13 @@
 }
 
 
-
 -(void)loadingData:(BOOL)data
 {
     if (self.data.count > 0) {
         [self.data removeAllObjects];
         [self.tableView reloadData];
     }
-    
     self.tableView.loading = YES;
-    
     // GCD延迟加载
     [GCDQueue executeInMainQueue:^{
         if (data) {
@@ -92,7 +89,6 @@
         }
         [self.tableView reloadData];
     } afterDelaySecs:2];
-    
 }
 
 
@@ -100,6 +96,8 @@
 {
     return self.data.count;
 }
+
+
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ID"];

@@ -7,8 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import <BaiduMapAPI_Base/BMKMapManager.h>
+
+#define kBaiduKey @"Yy4LLW3t8lIcVjsLS67Sw4j5gSGVivoV"
 
 @interface AppDelegate ()
+{
+    BMKMapManager* _mapManager;
+}
 
 @end
 
@@ -17,6 +23,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _mapManager = [[BMKMapManager alloc]init];
+    // 如果要关注网络及授权验证事件，请设定     generalDelegate参数
+    BOOL ret = [_mapManager start:kBaiduKey  generalDelegate:nil];
+    if (!ret) {
+        NSLog(@"manager start failed!");
+    }
     return YES;
 }
 
