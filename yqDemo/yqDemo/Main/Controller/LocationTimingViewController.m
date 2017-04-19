@@ -12,6 +12,8 @@
 #import "locationModel.h"
 #import "YQLocationManager.h"
 
+#define timeDef  10
+
 @interface LocationTimingViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -22,6 +24,8 @@
 
 
 @end
+
+#warning 如何不返回进入后台也可以持续获取定位。
 
 @implementation LocationTimingViewController
 
@@ -38,7 +42,7 @@
 - (void)setupLocation
 {
     self.manager.isBackGroundLocation = YES;
-    _manager.locationInterval = 10;
+    _manager.locationInterval = timeDef;
     __block YQLocationManager *blockManager = _manager;
     __block LocationTimingViewController *weakSelf = self;
     [_manager setYQBackGroundLocationHander:^(CLLocationCoordinate2D coordinate) {
